@@ -1,5 +1,12 @@
 <div class="pai-base shadow">
-  <button mat-raised-button color="primary">Voltar</button>
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="navigate()"
+    class="button-base"
+  >
+    Voltar
+  </button>
   <h1>VENDEDOR MILIONÁRIO 2.0</h1>
   <h2>Marketing de vendas</h2>
   <mat-tab-group mat-align-tabs="center">
@@ -11,11 +18,18 @@
       <app-beneficios></app-beneficios>
     </mat-tab>
 
-    <mat-tab label="Contato"> </mat-tab>
+    <mat-tab label="Contato">
+      <app-contato></app-contato>
+    </mat-tab>
   </mat-tab-group>
 
   <mat-card class="card-footer">
-    <button mat-raised-button color="primary" (click)="compra()">
+    <button
+      mat-raised-button
+      color="primary"
+      (click)="compra()"
+      class="button-base"
+    >
       ADQUIRIR CURSO
     </button>
   </mat-card>

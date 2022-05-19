@@ -1,0 +1,13 @@
+<div>
+  <mat-card>
+    <mat-card-title>Vendedor Milionário 2.0</mat-card-title>
+    <mat-card-subtitle>CONTATOS</mat-card-subtitle>
+
+    <mat-selection-list #oneX [multiple]="false">
+      <mat-list-option *ngFor="let one of contatos" [value]="one">
+        {{ one }}
+      </mat-list-option>
+    </mat-selection-list>
+  </mat-card>
+  <br />
+</div>

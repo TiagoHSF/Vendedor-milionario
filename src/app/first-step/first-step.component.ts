@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app-first-step",
@@ -6,11 +7,15 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./first-step.component.scss"],
 })
 export class FirstStepComponent implements OnInit {
-  constructor() {}
+  constructor(private route: Router) {}
 
   ngOnInit(): void {}
 
   compra() {
     window.open("https://sun.eduzz.com/1110539?a=64232058");
+  }
+
+  navigate() {
+    this.route.navigate([""]);
   }
 }

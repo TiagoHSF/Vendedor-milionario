@@ -26,3 +26,12 @@ h1, h2{
 .card-footer {
   background: #bbbbbb;
 }
+
+.button-base {
+  background: #d97a2b;
+  color: black;
+  font-weight: 500;
+} button:hover {
+  color: white;
+  background: #964b0d;
+}

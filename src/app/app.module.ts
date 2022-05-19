@@ -12,6 +12,8 @@ import { SobreComponent } from "./tabs/sobre/sobre.component";
 import { MatButtonModule } from "@angular/material/button";
 import { VideoComponent } from "./video/video.component";
 import { routing } from "./app.routing";
+import { ContatoComponent } from "./tabs/contato/contato.component";
+import { MatListModule } from "@angular/material/list";
 
 @NgModule({
   declarations: [
@@ -20,6 +22,7 @@ import { routing } from "./app.routing";
     BeneficiosComponent,
     SobreComponent,
     VideoComponent,
+    ContatoComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,6 +31,7 @@ import { routing } from "./app.routing";
     MatCardModule,
     MatTabsModule,
     MatButtonModule,
+    MatListModule,
     routing,
   ],
   providers: [],

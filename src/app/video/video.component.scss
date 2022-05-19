@@ -12,3 +12,26 @@
   left: 25%;
   top: 2rem;
 }
+
+.button-base {
+  width: 17rem;
+  height: 3rem;
+  background: #d97a2b;
+  color: black;
+  font-weight: 500;
+} button:hover {
+  color: white;
+  background: #964b0d;
+}
+
+.shadow-button{
+  box-shadow:
+  2.7px 2.8px 2.2px rgba(0, 0, 0, 0.048),
+  6.4px 6.7px 5.3px rgba(0, 0, 0, 0.069),
+  12px 12.5px 10px rgba(0, 0, 0, 0.085),
+  21.4px 22.3px 17.9px rgba(0, 0, 0, 0.101),
+  40.1px 41.8px 33.4px rgba(0, 0, 0, 0.122),
+  96px 100px 80px rgba(0, 0, 0, 0.17)
+;
+}
+
